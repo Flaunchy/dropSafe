@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Drop Safe Delivery Management</title>
+  <link rel="dropSafeJSON" href="/dropSafeJSON.json">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drop Safe Delivery Management</title>
+  <link rel="stylesheet" type="text/css" href="dropSafeCSS.css">
+</head>
+
+<!-- Landing Page -->
+
+<body>
+
+<nav class="nav">
+ <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="signup.html">Sign Up</a></li>
+	<li><a href="findus.html">Find Us</a></li>
+	<li><a href="login.html">Log In</a></li>
+</ul>
+</nav>
+
+<div class="content">
+  <header class="header">
+    <h1 class="header_title">Drop Safe Delivery Management</h1>
+  </header>
+
+ 
+<h2>Sign Up Here!</h2>
+<main class="main">
+
+<h2>Fill out the form below to sign up for Drop Safe:</h2>
+</div>
+
+<div class="form">
+<form action="signedUp.html" method="post" target="actionPage.html">
+<fieldset>
+	<legend>Login Information</legend>
+		<label for="username">User Name</label>
+		<input type="text" id="username" name="username" required >*</input>
+<br/>
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password"></input>
+</fieldset>
+	<legend>Name and Billing Address</legend>
+		<label for="lastname">Last Name: </label>
+<br/>
+		<input type="text" id="lastname" name="lastname" maxlength=20 >*</input>
+<br/>
+
+		<label for="firstname">First Name: </label>
+<br/>
+		<input type="text" id="firstname" name="firstname" required >*</input>
+
+		<label for="middleinitial">MI: </label>
+		<input type="text" id="middleinitial" name="middleinitial" size=1 ></input>
+<br/>
+<br/>
+		<label for="streetadd1" for="streetadd2">Address:</label>
+<br/>
+		<input type="text" id="streetadd1" name="streetadd1" size=27 required placeholder="Line 1">*</input>
+<br/> 
+		<input type="text" id="streetadd2" name="streetadd2" size=27 placeholder="Line 2"></input>
+<br/>
+		<input type="text" id="city" name="city" required placeholder="Baltimore"></input>
+
+		<input type="text" id="state" name="state" required placeholder="MD" size=2>*</input>
+<br/>
+		<input type="text" id="zip" name="zip" required placeholder="21224" pattern="\d{5}">*</input>
+</fieldset>
+<br/>
+<fieldset>
+	<legend>Physical Address (If Different)</legend>
+<br/>
+		<label for="streetadd3" for="streetadd4">Address:</label>
+<br/>
+		<input type="text" id="streetadd3" name="streetadd3" size=27  placeholder="Line 1"></input>
+<br/> 
+		<input type="text" id="streetadd4" name="streetadd4" size=27 placeholder="Line 2"></input>
+<br/>
+		<input type="text" id="physcity" name="physcity" placeholder="Baltimore"></input>
+
+		<input type="text" id="physstate" name="physstate" placeholder="MD" size=2></input>
+<br/>
+		<input type="text" id="physzip" name="physzip" placeholder="21224" pattern="\d{5}"></input>
+		
+		<input type="submit" id="submit"></input>
+</form>
+</div>
+
+<br/>
+<br/>
+
+
+
+</body>
+</html>
