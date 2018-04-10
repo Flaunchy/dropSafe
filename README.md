@@ -1,2 +1,0 @@
-# dropSafe
-Drop Safe Repository
